@@ -985,6 +985,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@onecocjs/use.persistfn@^0.0.1-alpha.1":
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@onecocjs/use.persistfn/-/use.persistfn-0.0.1-alpha.1.tgz#052f4b94ce440d5451c0845336671bb9f19e5fdd"
+  integrity sha512-zBzqxLzC4oYkP2u2w+BJNJBtoDMih+Ch1YM1LAD6WnZ2IyJPtf0YMYOIoI/SmwLsVUMtuLF7zuBJcf7dqS3Y7w==
+
+"@onecocjs/use.toggle@^0.0.1-alpha.1":
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@onecocjs/use.toggle/-/use.toggle-0.0.1-alpha.1.tgz#546c87e3b911226dfdd586c783b1b26d3e568dc4"
+  integrity sha512-0eR6X8nCrxC8KIgJqG1I0Y9uNok+4W2ad2QbdTu03F8u58WauozEaEQfDuk+wDK6pgwVukHVDsZhqHU6xM8q0w==
+  dependencies:
+    "@onecocjs/use.persistfn" "^0.0.1-alpha.1"
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.8.0"
   resolved "https://registry.npmjs.org/@soda/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.8.0.tgz"
